@@ -11,6 +11,11 @@ services:
 
   vs-code:
     image: sebbycorp/xademy-vscode:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - DEFAULT_WORKSPACE=/workspace/code #optional
     ports:
       - "8080:8080"
       
