@@ -6,7 +6,7 @@ icon: "article"
 date: "2023-12-22T14:06:28-05:00"
 lastmod: "2023-13-22T14:06:28-05:00"
 draft: false
-toc: true
+toc: false
 ---
 
 ## Managing Fortinet With Ansible and Terraform in AWS - A Comprehensive Introduction
