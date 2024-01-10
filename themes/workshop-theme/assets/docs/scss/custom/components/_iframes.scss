@@ -1,0 +1,6 @@
+.code-server-frame iframe {
+    position: fixed;
+    @media (max-width: 767px) {
+        position: static;
+    }
+}
