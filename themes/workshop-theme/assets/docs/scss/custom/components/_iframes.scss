@@ -1,0 +1,6 @@
+.code-server-frame {
+    display: none;
+   &.active {
+    display: block;
+   }
+}
